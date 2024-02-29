@@ -3,7 +3,7 @@ name: Sync Leetcode
 on:
   workflow_dispatch:
   schedule:
-    - cron: "45 9 * * 4"
+    - cron: "50 1 * * 4"
 
 jobs:
   build:
